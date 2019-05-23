@@ -9,4 +9,6 @@ For info: https://developers.google.com/api-client-library/python/apis/oauth2/v1
 
 ## How to run
 
-$ python check-lables.py <USER_EMAIL_ID>
+```
+$ python check-labels.py <USER_EMAIL_ID>
+```
