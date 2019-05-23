@@ -1,4 +1,4 @@
-## pre-requisites
+## Pre-requisites
 
 1. Configure google service account enabling Domain-Wide Delegation of Authority.
 2. Download the service account configs(JSON) and rename it to creds.json
