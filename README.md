@@ -1,4 +1,4 @@
-## Pre-requites
+## pre-requisites
 
 1. Configure google service account enabling Domain-Wide Delegation of Authority.
 2. Download the service account configs(JSON) and rename it to creds.json
@@ -7,6 +7,6 @@
 5. Make sure you have Google OAuth2 API Client Library for Python installed locally before running the script.
 For info: https://developers.google.com/api-client-library/python/apis/oauth2/v1
 
-How to run:
+## How to run
 
 $ python check-lables.py <USER_EMAIL_ID>
