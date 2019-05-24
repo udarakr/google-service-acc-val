@@ -25,7 +25,7 @@ pip3 install xlwt
 Then run,
 
 ```
-$ python3 check-labels-out.py <USER_EMAIL_ID> <IONDEX>
+$ python3 check-labels-out.py <USER_EMAIL_ID> <INDEX>
 ```
 
 If you have a list of users within a CSV file, saved in the same dierctory where check-labels-full.py exists.
