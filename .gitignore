@@ -1,2 +1,4 @@
 *.json
 *.p12
+*.xls
+.DS_Store

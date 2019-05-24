@@ -10,5 +10,19 @@ For info: https://developers.google.com/api-client-library/python/apis/oauth2/v1
 ## How to run
 
 ```
-$ python check-labels.py <USER_EMAIL_ID>
+$ python3 check-labels.py <USER_EMAIL_ID>
+```
+
+Before executing following make sure to install all dependencies listed.
+1. xlwt 
+2. xlrd
+3. xlutils
+
+Eg:- 
+```
+pip3 install xlwt
+```
+
+```
+$ python3 check-labels-out.py <USER_EMAIL_ID> <IONDEX>
 ```
