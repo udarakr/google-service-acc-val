@@ -22,7 +22,25 @@ Eg:-
 ```
 pip3 install xlwt
 ```
+Then run,
 
 ```
 $ python3 check-labels-out.py <USER_EMAIL_ID> <IONDEX>
+```
+
+If you have a list of users within a CSV file, saved in the same dierctory where check-labels-full.py exists.
+
+Eg:- users.csv
+
+```
+user1@sample.net
+user2@sample.com
+user3@sample.in
+
+```
+
+Run
+
+```
+python3 check-labels-full.py
 ```
