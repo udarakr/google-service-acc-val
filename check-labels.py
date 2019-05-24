@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
 import sys
-import oauth2client.client
-import googleapiclient.errors
 
 from googleapiclient.discovery import build
 from oauth2client.service_account import ServiceAccountCredentials
+from googleapiclient.errors import HttpError
+from oauth2client.client import HttpAccessTokenRefreshError
 
 def main(argv):
   try:
@@ -25,9 +25,9 @@ def main(argv):
         print('Labels:')
         for label in labels:
             print(label['name'])
-  except oauth2client.client.HttpAccessTokenRefreshError as e:
+  except HttpAccessTokenRefreshError as e:
     print('An error occurred HttpAccessTokenRefreshError: %s' % e)
-  except googleapiclient.errors.HttpError as err:
+  except HttpError as err:
     print('An error occurred HttpError: %s' % error)
 if __name__ == '__main__':
   main(sys.argv)
