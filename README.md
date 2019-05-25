@@ -13,7 +13,7 @@ For info: https://developers.google.com/api-client-library/python/apis/oauth2/v1
 ## How to run
 
 ```
-$ python3 check - labels.py < USER_EMAIL_ID >
+$ python3 check-labels.py < USER_EMAIL_ID >
 ```
 
 Before executing following make sure to install all dependencies listed.
@@ -31,7 +31,7 @@ pip3 install xlwt
 Then run, 
 
 ```
-$ python3 check - labels - out.py < USER_EMAIL_ID > < INDEX >
+$ python3 check-labels-out.py < USER_EMAIL_ID > < INDEX >
 ```
 
 If you have a list of users within a CSV file, saved in the same dierctory where check-labels-full.py exists.
@@ -47,6 +47,6 @@ user3 @sample.in
 Run
 
 ```
-python3 check - labels - full.py
+python3 check-labels-full.py
 ```
 
