@@ -10,7 +10,6 @@ google-api-python-client = "*"
 xlwt = "*"
 xlrd = "*"
 xlutils = "*"
-csv = "*"
 
 [requires]
 python_version = "3.7"
